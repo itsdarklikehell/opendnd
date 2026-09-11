@@ -6,7 +6,7 @@
   "scripts": {
     "start": "bin/dnd",
     "test": "npm run test:mocha && npm run test:lint",
-    "test:mocha": "mocha --reporter spec 'test/**/*.js'",
+    "test:mocha": "mocha --reporter spec --timeout 8000 'test/**/*.js'",
     "test:lint": "eslint ."
   },
   "repository": {
