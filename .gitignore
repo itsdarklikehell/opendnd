@@ -52,3 +52,7 @@ jspm_packages
 *.dna
 *.dom
 tmp
+
+# Gource
+gource/
+gource.ppm
